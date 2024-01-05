@@ -43,4 +43,11 @@ public class StepLoginPage extends PageObject {
         return actualErrorMessage;
     }
 
+    @Step("Click Forget Password Link")
+    public void clickForgetPasswordLink() {
+        linkText.click();
+
+        System.out.println("Clicked on Forgot Password Link");
+    }
+
 }

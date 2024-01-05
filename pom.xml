@@ -13,7 +13,6 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <serenity.version>4.0.30</serenity.version>
-    <serenity.maven.version>3.5.1</serenity.maven.version>
     <junit.version>4.13.2</junit.version>
     <maven.compiler.plugin.version>3.12.1</maven.compiler.plugin.version>
     <maven.surefire.plugin.version>3.2.3</maven.surefire.plugin.version>

@@ -21,3 +21,10 @@ Feature: Login Page
       | $$$$$      | ££££££££  | Invalid credentials               |
       | admin      | Admin123  | Invalid credentials               |
       | Admin123   | admin     | Invalid credentials               |
+
+  @ForgetPassword
+  Scenario: Verify Forget Password Functionality
+
+    Given User is on Home page
+    When User clicks on Forgot your password link
+    Then User should be able to see new page which contains Reset Password button
